@@ -1,16 +1,18 @@
-### Hi there 👋
+### Привет /)
+```async function legend() {
+  const lancerCruz = require('150iq.js');
+  const chalk = require('chalk');
 
-<!--
-**LancerCruz/LancerCruz** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+  let doing = ['Sleeping', 'Eating', 'Coding'];
+  let langs = ['JavaScript', 'NodeJS'];
+  let tools = ['Windows', 'Discord', 'GitHub'];
 
-Here are some ideas to get you started:
+  let practice = await LancerCruz.randomize(doing, langs, tools);
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+  let lifeStoryPart1 = `Учусь в школе, занимаюсь кодингом, 16 лет`;
+  let lifeStoryPart2 = `Больше всего времени я провожу в играх с друзьями`;
+  let lifeStoryPart3 = `Discord отличный мэссэнджер, поэтому я выбрал именно его. Мой первый аккаунт был создан в 2016г`;
+
+  console.log(chalk.blue(lifeStoryPart1, lifeStoryPart2, lifeStoryPart3));
+}
+exports.lancercruz = legend;
