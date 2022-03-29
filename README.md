@@ -3,7 +3,7 @@
   const lancerCruz = require('150iq.js');
   const chalk = require('chalk');
 
-  let doing = ['Sleeping', 'Eating', 'Coding'];
+  let doing = ['Сплю', 'Кушаю', 'Пишу'];
   let langs = ['JavaScript', 'NodeJS'];
   let tools = ['Windows', 'Discord', 'GitHub'];
 
